@@ -1,4 +1,4 @@
-## Checkpoint 02 - Front End I - Turma 01
+## Checkpoint 02 - Front End I - Turma 10
 
 ## Objetivo
 
