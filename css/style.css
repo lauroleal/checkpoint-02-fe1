@@ -260,65 +260,7 @@
          /* webkit para trocar o incone padão do input data / Funciona no Google*/
         ::-webkit-calendar-picker-indicator {background-image: url("../img/data.svg"); }
 
-       /* Brincando com Animação */
-       @keyframes irParaFrente {
-        20% {
-            background-color: #C11E40;
-            transform: translatey(40px);
-        }
-        
-        25% {
-            background-color: #C11E40;
-            transform: translatey(0);
-        }
- }
-
-       @keyframes voltar {
-      25% {
-          background-color: #C11E40;
-          transform: translatey(0);
-          }
-    
-      20% {
-           background-color: #C11E40;
-           transform: translatey(40px);
-          }
-}
-
-
-/* las bolas de bem vindo*/
-      .bola {
-            animation-name: irParaFrente;
-            animation-duration: 3s;
-            animation-iteration-count: infinite;
-            background-color:#C11E40;
-            border-radius: 100%;
-            height: 50px;
-            width: 50px;
-            float: left;
-            margin: 1px;
-            color:#fff;
-            font-family: 'PT Sans Narrow', sans-serif;
-            text-align: center;
-            padding: 10px;
-        }
-
-        .bola2 {
-            animation-name: voltar;
-            animation-duration: 4s;
-            animation-iteration-count: infinite;
-            background-color:#C11E40;
-            border-radius: 100%;
-            height: 50px;
-            width: 50px;
-            float: left;
-            margin: 1px;
-            color:#fff;
-            font-family: 'PT Sans Narrow', sans-serif;
-            text-align: center;
-            padding-top: 10px;
-        }
-        
+      
         /*tipo resetando os atributos padroes da tag button*/
         button {
             border:none; /*remove as bordas*/
@@ -519,5 +461,65 @@
 .nice-select .option.disabled {
       background-color: transparent;
       color: #90a1b5e3;
-      cursor: default; }*/
+      cursor: default; }
+
+  Brincando com Animação
+       @keyframes irParaFrente {
+        20% {
+            background-color: #C11E40;
+            transform: translatey(40px);
+        }
+        
+        25% {
+            background-color: #C11E40;
+            transform: translatey(0);
+        }
+ }
+
+       @keyframes voltar {
+      25% {
+          background-color: #C11E40;
+          transform: translatey(0);
+          }
+    
+      20% {
+           background-color: #C11E40;
+           transform: translatey(40px);
+          }
+}
+
+
+ las bolas de bem vindo
+      .bola {
+            animation-name: irParaFrente;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            background-color:#C11E40;
+            border-radius: 100%;
+            height: 50px;
+            width: 50px;
+            float: left;
+            margin: 1px;
+            color:#fff;
+            font-family: 'PT Sans Narrow', sans-serif;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .bola2 {
+            animation-name: voltar;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            background-color:#C11E40;
+            border-radius: 100%;
+            height: 50px;
+            width: 50px;
+            float: left;
+            margin: 1px;
+            color:#fff;
+            font-family: 'PT Sans Narrow', sans-serif;
+            text-align: center;
+            padding-top: 10px;
+        }
+        */
     
